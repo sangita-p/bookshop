@@ -1,0 +1,12 @@
+{
+    "welcomeFile": "books/webapp/",
+    "authenticationMethod": "none",
+    "routes": [{
+        "source": "^/books/webapp/(.*)$",
+        "target": "$1",
+        "localDir": "books/webapp/"
+    }, {
+        "source": "^(.*)$",
+        "destination": "srv-api"
+    }]
+}
